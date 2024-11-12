@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NAWRAJ - Social Aid</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <link rel="icon" href="../img/logo/logo1.jpeg" type="image/x-icon">
+
+    <!-- Favicon -->
+    <link href="../img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/avenir');
+        .container-xxl {
+            font-family: 'Avenir', sans-serif !important;
+        }
+    </style>
+    <div class="container-xxl bg-white p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Header Start -->
+        <div class="fixed-nav container-fluid bg-dark px-0">
+            <style>
+                .fixed-nav {
+                    position: fixed;
+                    z-index: 9999;
+                    top: 0;
+                    left: 0;
+                }
+            </style>
+            <div class="row gx-0">
+                <div class="col-lg-3 bg-dark d-none d-lg-block">
+                    <a href="../index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                        <img src="../img/logo/logo.jpeg" style="width: 50% !important; height: 70%; position: relative; top: 2px" alt="Image">
+                    </a>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row gx-0 bg-white d-none d-lg-flex">
+                    </div>
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                        <a href="../index.html" class="navbar-brand d-block d-lg-none" style="width: 50%;">
+                            <img src="../img/logo/logo.jpeg" style="width: 60% !important" alt="Image">
+                        </a>
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                            <i class="fa fa-bars fa-2x text-primary"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto py-0">
+                                <div class="nav-item dropdown">
+                                    <a href="../about.html" class="nav-link dropdown-toggle">About Us</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="../about.html#story" class="dropdown-item">Our Story</a>
+                                        <a href="../about.html#people" class="dropdown-item">Our People</a>
+                                        <a href="../about.html#financials" class="dropdown-item">Financials</a>
+                                        <a href="../about.html#policies" class="dropdown-item">Policies</a>
+                                    </div>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a href="../ourWork.html" class="nav-link dropdown-toggle">Our Work</a>
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                        <a href="healthcare.html" class="dropdown-item">Healthcare</a>
+                                        <a href="education.html" class="dropdown-item">Education</a>
+                                        <a href="development.html" class="dropdown-item">Development</a>
+                                        <a href="socialaid.html" class="dropdown-item">Social Aid</a>
+                                        <a href="womenact.html" class="dropdown-item">Women Act</a>
+                                    </div>
+                                </div>
+                                <a href="../duroob.html" class="nav-item nav-link">Duroob (DCC)</a>
+                                <a href="../contact.php" class="nav-item nav-link">Contact</a>
+                                <a href="../joinandsupport.html" class="nav-item nav-link">Join & Support</a>
+                            </div>
+                            <!-- <a href="https://htmlcodex.com/hotel-html-template-pro" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i class="fa fa-arrow-right ms-3"></i></a> -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(../img/grey.jpg); margin-top: 72px;">
+            <div class="container-fluid page-header-inner py-4">
+                <div class="container text-center pb-3">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown" style="color: white !important;">Social Aid</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row justify-content-center">
+                <div class="border rounded text-center p-1">
+                    <div class="bg-white rounded text-center p-5" style="text-align: center; background-color: transparent !important;">
+                        <style>
+                            @media (max-width: 420px) {
+                                .title-anime {
+                                    display: none !important;
+                                }
+                                .title-mobile {
+                                    display: inline-block !important;
+                                }
+                            }
+                            
+                            @media (max-width: 310px) {
+                                .title-mobile {
+                                    font-size: 15px !important;
+                                }
+                            }
+                            
+                            .title-anime {
+                                font-size: 29px;
+                                font-weight: 500;
+                                /* color: black; */
+                                /* color: #870d12; */
+                                color: #970000;
+                                display: inline-block;
+                                overflow: hidden;
+                                white-space: nowrap;
+                            }
+                            
+                            .title-anime span {
+                                /* color: black; */
+                                /* color: #870d12; */
+                                color: #970000;
+                            }
+                            
+                            .title-mobile {
+                                font-size: 20px;
+                                font-weight: 500;
+                                /* color: black; */
+                                /* color: #870d12; */
+                                color: #970000;
+                                display: inline-block;
+                                overflow: hidden;
+                                white-space: nowrap;
+                            }
+                            
+                            .title-mobile span {
+                                /* color: black; */
+                                /* color: #870d12; */
+                                color: #970000;
+                            }
+                            
+                            .title-anime:first-of-type {
+                                animation: showup 7s forwards;
+                            }
+                            
+                            .title-anime:last-of-type {
+                                width: 0px;
+                                animation: reveal 7s forwards;
+                            }
+                            
+                            .title-anime:last-of-type span {
+                                margin-left: -355px;
+                                animation: slidein 7s forwards;
+                            }
+                            
+                            @keyframes showup {
+                                0% {
+                                    opacity: 0;
+                                }
+                                20% {
+                                    opacity: 1;
+                                }
+                                80% {
+                                    opacity: 1;
+                                }
+                                100% {
+                                    opacity: 1;
+                                }
+                            }
+                            
+                            @keyframes slidein {
+                                0% {
+                                    margin-left: -800px;
+                                }
+                                20% {
+                                    margin-left: -800px;
+                                }
+                                35% {
+                                    margin-left: 0px;
+                                }
+                                100% {
+                                    margin-left: 0px;
+                                }
+                            }
+                            
+                            @keyframes reveal {
+                                0% {
+                                    opacity: 0;
+                                    width: 0px;
+                                }
+                                20% {
+                                    opacity: 1;
+                                    width: 0px;
+                                }
+                                30% {
+                                    width: 355px;
+                                }
+                                80% {
+                                    opacity: 1;
+                                }
+                                100% {
+                                    opacity: 1;
+                                    width: 355px;
+                                }
+                            }
+                        </style>
+                        <div class="title-mobile" style="display: none;">
+                            <span>Engaged<br>Towards our Communities</span>
+                        </div>
+                        <div class="title-anime">
+                            Engaged
+                        </div>
+                        <div class="title-anime">
+                            <span>Towards our Communities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row justify-content-center">
+                <div class="border rounded text-center p-1">
+                    <div class="container-xxl py-5">
+                        <div class="container">
+                            <div class="row g-5 align-items-center" style="text-align: left;">
+                                <div class="col-lg-12">
+                                    <h2 class="text-primary mb-4">Social Aid</h2>
+                                    <p class="mb-4">
+                                        Since its inception, Nawraj is committed to support communities across the country. Social aid includes food parcels, medicines, healthcare items, gloves, masks, dispensary material, personal and home care products, tuitions, stationery, fuel oil, infant
+                                        milk, seeds, plants, blankets, clothes, diapers, etc.<br/>Target beneficiaries:<br/>Villages, municipalities, schools, students, public institutions, orphanages, social institutions,
+                                        dispensaries, primary care centers, …
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="row justify-content-center">
+                <div class="border rounded text-center p-1">
+                    <div class="container-xxl py-5">
+                        <div class="container">
+                            <div class="row g-5 align-items-center" style="text-align: left;">
+                                <div class="col-lg-12">
+                                    <h2 class="text-primary mb-4">Emergency Relief</h2>
+                                    <p class="mb-1">
+                                        <b style="font-size: larger;">South Lebanon - October 2024</b><br/>On October 8, 2023, Nawraj launched a relief campaign to assist communities in South Lebanon. The organization provided essential items including
+                                        food parcels, diesel, diapers, infant formula, personal care and hygiene products, home medical supplies, and medicine to the frontline villages.<br/><br/> Throughout the ongoing conflict, Nawraj is focusing its
+                                        efforts on two parallel fronts:
+                                        <ol>
+                                            <li>Ensuring the delivery of essential supplies to border populations and displaced families.</li>
+                                            <li>Protecting their fundamental rights to education, healthcare, housing, and income-generating opportunities.</li>
+                                        </ol>
+                                        <br/>Nawraj is committed to providing relief to populations affected by the war along the southern border, as well as to displaced families in need.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row g-5 align-items-center">
+                                <div class="row g-5 align-items-center">
+                                    <div class="col-lg-5">
+                                        <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="width: 87% !important;">
+                                            <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/Assameh.jpeg">
+                                        </div>
+                                        <p style="text-align: left; font-style: italic; font-size: small;">
+                                            Collaboration with Assameh Birth and Beyond association
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-2">
+
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                            <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/SouthernVillagesMap.jpg" style="width: 100% !important;">
+                                        </div>
+                                        <p style="text-align: left; font-style: italic; font-size: small;">
+                                            Providing assistance to South Lebanon villages
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="row g-5 align-items-center" style="margin-top: -1px;">
+                                    <div class="col-lg-4">
+                                        <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="width: 100% !important;">
+                                            <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/sa1.jpeg">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                            <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/sa2.jpeg" style="width: 100% !important;">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                            <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/sa3.jpeg" style="width: 100% !important;">
+                                        </div>
+                                    </div>
+                                    <p style="text-align: center; font-style: italic; font-size: small; margin-top: -1px;">
+                                        Building Emergency Bridges Across Regions: From Ammiq to South Lebanon
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row g-5 align-items-center" style="text-align: left; margin-top: 1px;">
+                                <div class="col-lg-12">
+                                    <p class="mb-4">
+                                        Nawraj organized a press conference on May 21st in collaboration with the Catholic Information Center and 13 southern border municipalities. The aim was to raise awareness among officials and citizens about the destruction caused by the war and the marginalization
+                                        of these areas in terms of emergency assistance. A joint statement, drafted by the 13 participating frontline villages, appealed to state institutions to address their legitimate demands for urgent assistance, support,
+                                        and compensation plans.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="width: 100% !important;">
+                                        <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/CCIPic1.jpg ">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/CCIPic2.jpeg" style="width: 85.5% !important;">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-5 align-items-center" style="margin-top: 30px;">
+                                <div class="col-lg-6" style="align-items: start; text-align: left">
+                                    <p class="mb-4" style="text-align: left">
+                                        <b style="font-size: larger;">Covid-19 pandemic and the Beirut port explosion (2020)</b><br/>During the COVID-19 pandemic, Lebanon was hit by a massive blast, which caused the biggest non-nuclear explosion in the
+                                        capital city of Beirut. The blast resulted in the deaths of over 230 people, injured 7,000, destroyed 77,000 homes, and left 300,000 homeless. In response, Nawraj utilized its wide network across the country to
+                                        provide emergency assistance to schools, hospitals, dispensaries, and homes. The aid included hundreds of food rations, more than 2 million masks and gloves, medicine, and other necessary supplies.<br/>
+                                        <b>This emergency aid was possible thanks to donations made by private citizens, members of the Lebanese diaspora,  the German Evangelical Church, and the Region Auvergne-Rhône-Alpes (France) and with the instrumental support of CMA-CGM Foundation.</b>
+                                    </p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                        <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/PReconstruireNathalieTruck.jpg" style="width: 90% !important;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="col-lg-12 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-top: 30px;">
+                                        <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/DrSacy.png" style="width: 90% !important;">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" style="align-items: start; text-align: left">
+                                    <p class="mb-4" style="text-align: left">
+                                        <b style="font-size: larger;">Rebuilding the Ashes</b><br/>In the aftermath of the blast, Nawraj immediately sprang into action to provide relief efforts. The team worked tirelessly to renovate hospitals, distribute
+                                        essential medicines and food rations, rehabilitate 61 homes before the rainy season, and assist schools in resuming their educational programs as quickly as possible.<br/>The Rosary Hospital in Gemmayzé was severely
+                                        damaged. Nawraj supported the renovation of the hospital to quickly reactivate its departments, starting with emergency services, particularly during the Covid pandemic.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row g-5 align-items-center">
+                                <div class="col-lg-12 row g-5 " style="text-align: left; vertical-align: top !important;">
+                                    <div class="col-lg-4">
+                                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="width: 100% !important;">
+                                            <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/NewsNathalie.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="width: 100% !important;">
+                                            <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/ReconstruireNathalieMed.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="width: 100% !important;">
+                                            <img class="img-fluid rounded w-100 wow zoomIn" src="../img/socialaid/XReconstruireNathaliePort.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" style="background-color: transparent !important;" data-wow-delay="0.1s">
+            <div class="container-two" style="color: #737374 !important; background-color: #eaeef2 !important;">
+                <!-- #c71c22 811216 9f1519 a7161b 971318 F1F8FF -->
+                <div class="col-12 row g-5" style="margin-top: 0px; margin-bottom: 50px; justify-items: center !important;">
+                    <div class="col-md-6 col-lg-3" style="text-align: center;">
+                        <img src="../img/logo/logoLight.png" style="width: 70% !important;" alt="Image">
+                    </div>
+                    <div class="col-md-6 col-lg-6">
+                        <div class="row gy-5 g-4">
+                            <div class="col-md-6">
+                                <h6 class="section-title2 text-start text-primary text-uppercase mb-4" style="color: #737374 !important; font-size: small;">Newsroom</h6>
+                                <a class="btn btn-link" style="color: #737374 !important; font-size: small;" href="../newsroom.html#RecentArticlesReports">Recent Articles & Reports</a>
+                                <a class="btn btn-link" style="color: #737374 !important; font-size: small;" href="../newsroom.html#Events">Events</a>
+                            </div>
+                            <div class=" col-md-6 ">
+                                <h6 class="section-title2 text-start text-primary text-uppercase mb-4 " style="color: #737374 !important; font-size: small; ">Join & Support</h6>
+                                <a class="btn btn-link " style="color: #737374 !important; font-size: small; " href="../joinandsupport.html?trigger1=true ">Sponsorship</a>
+                                <a class="btn btn-link " style="color: #737374 !important; font-size: small; " href="../joinandsupport.html?trigger2=true ">Partnership</a>
+                                <a class="btn btn-link " style="color: #737374 !important; font-size: small; " href="../joinandsupport.html?trigger3=true ">Internship</a>
+                                <a class="btn btn-link " style="color: #737374 !important; font-size: small; " href="../joinandsupport.html?trigger4=true ">Volunteering</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ">
+                        <h6 class="section-title2 text-start text-primary text-uppercase mb-4 " style="color: #737374 !important; font-size: small; ">Connect</h6>
+                        <div class="d-flex pt-2 ">
+                            <a class="btn btn-round btn-primary mx-1 " style="background-color: #F1F8FF !important; color: #c71c22 !important; " href="https://www.facebook.com/nawraj.ngo " target="_blank "><i class="fab fa-facebook-f "></i></a>
+                            <a class="btn btn-round btn-primary mx-1 " style="background-color: #F1F8FF !important; color: #c71c22 !important; " href="https://www.instagram.com/nawraj.ngo " target="_blank "><i class="fab fa-instagram "></i></a>
+                            <a class="btn btn-round btn-primary mx-1 " style="background-color: #F1F8FF !important; color: #c71c22 !important; " href="https://www.x.com/NawrajNGO " target="_blank "><i class="fab fa-x-twitter "></i></a>
+                            <a class="btn btn-round btn-primary mx-1 " style="background-color: #F1F8FF !important; color: #c71c22 !important; " href="https://www.linkedIn.com/company/nawraj " target="_blank "><i class="fab fa-linkedin-in "></i></a>
+                            <!-- <a class="btn btn-round btn-primary mx-1 " style="background-color: #F1F8FF !important; color: #c71c22 !important; " href="https://www.nawraj.org " target="_blank "><i class="fa fa-globe "></i></a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 " style="text-align: left; ">
+                    <div class="row g-5 ">
+                        <div class="col-md-3 ">
+                            <h6 class="section-title2 text-start text-primary text-uppercase " style="color: #737374 !important; font-size: small; ">Visiting Address</h6>
+                            <p class="mb-2 " style="font-size: small "><i class="fa fa-map-marker-alt me-2 "></i>Gemayel Bldg. no. 91, Street 72,<br>Sector no.4, Bauchrieh,<br>Jdeidet el Metn, 1202 2130,<br>Lebanon.</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h6 class="section-title2 text-start text-primary text-uppercase " style="color: #737374 !important; font-size: small; ">Official Address</h6>
+                            <p class="mb-2 " style="font-size: small "><i class="fa fa-map-marker-alt me-2 "></i>CMDR Building<br>Maronite Patriarchate Coumpound,<br>Zouk Mosbeh, Keserwan,<br>Lebanon.</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h6 class="section-title2 text-start text-primary text-uppercase " style="color: #737374 !important; font-size: small; ">Phone</h6>
+                            <p style="font-size: small "><i class="fa fa-phone-alt me-2 "></i>+961 76 406838</p>
+                        </div>
+                        <div class="col-md-3 ">
+                            <h6 class="section-title2 text-start text-primary text-uppercase " style="color: #737374 !important; font-size: small; ">Email</h6>
+                            <p style="font-size: small "><i class="fa fa-envelope me-2 "></i>info@nawraj.org</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="copyright ">
+                    <div class="row ">
+                        <div class="text-center mb-3 mb-md-0 " style="font-size: small ">Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> <a class="text-body " href="https://nawraj.org/ ">NAWRAJ</a>. All Rights Reserved. <a class="text-body " href="termsandpolicies.html ">Terms of Use | Privacy & Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top " style="border-radius: 50%; border-color: #870d12 !important; "><i class="bi bi-arrow-up "></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="../lib/wow/wow.min.js "></script>
+    <script src="../lib/easing/easing.min.js "></script>
+    <script src="../lib/waypoints/waypoints.min.js "></script>
+    <script src="../lib/counterup/counterup.min.js "></script>
+    <script src="../lib/owlcarousel/owl.carousel.min.js "></script>
+    <script src="../lib/tempusdominus/js/moment.min.js "></script>
+    <script src="../lib/tempusdominus/js/moment-timezone.min.js "></script>
+    <script src="../lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js "></script>
+
+    <!-- Template Javascript -->
+    <script src="../js/main.js "></script>
+</body>
+
+</html>
